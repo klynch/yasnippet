@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+#name : Python File Header
+#key : hdr-full
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+
+ """`(buffer-name)`: ${1:Description of what `(buffer-name)` does.}"""
+
+__author__ = "${2:`(user-full-name)`} <${3:`user-mail-address`}>"
+__version__ = "${4:1.0}"
+__date__ = "${5:`(current-time-string)`}"
+__copyright__ = "Copyright ${6:`(nth 5 (decode-time))`}, ${2}"
+__license__ = "${7:GPL}"
+
+$0

@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-# -*- coding: utf-8 -*-
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 # textmate_import.rb --- import textmate snippets
